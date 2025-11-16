@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="w-full lg:w-2/3  relative">
         <img
           src="/images/hero.jpg"
-          alt="APEX Legends promotional artwork with dynamic characters in motion"
+          alt="Urban Outlaws promotional artwork with dynamic characters in motion"
           className="h-full w-full object-fit"
         />
 
@@ -24,12 +24,12 @@ const Hero = () => {
         </p>
 
         <div className="flex space-x-3 mb-8">
-          <button className="bg-[#FF0000] text-white font-medium px-5 py-3 rounded-md flex items-center hover:bg-red-600 transition">
+          <a href="download" className="bg-[#FF0000] text-white font-medium px-5 py-3 rounded-md flex items-center hover:bg-red-600 transition">
             Download Now <i className="fas fa-chevron-right ml-2 text-sm"></i>
-          </button>
-          <button className="border border-gray-400 text-white font-medium px-5 py-3 rounded-md flex items-center hover:bg-gray-700 transition">
+          </a>
+          <a href="https://youtube.com" target="_blank" className="border border-gray-400 text-white font-medium px-5 py-3 rounded-md flex items-center hover:bg-gray-700 transition">
             Watch Trailer <i className="fas fa-play ml-2 text-sm"></i>
-          </button>
+          </a>
         </div>
 
         <div className="flex items-center text-gray-400 text-sm space-x-3">

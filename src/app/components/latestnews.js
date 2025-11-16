@@ -10,21 +10,21 @@ export default function LatestNews() {
             desc: "Prepare for new districts, weapons, and outlaw factions entering the world of Urban Outlaws.",
         },
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/update1.jpg",
             tag: "News Article",
             date: "October 21, 2025",
             title: "Urban Outlaws: Audio Overhaul",
             desc: "A full redesign of the soundscape, with upgraded weapon FX and ambient city layers.",
         },
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/trailer.jpg",
             tag: "News Article",
             date: "September 2, 2025",
             title: "Urban Outlaws Anti-Cheat Update",
             desc: "The latest improvements in anti-cheat technology across all platforms.",
         },
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/about.jpg",
             tag: "News Article",
             date: "August 21, 2025",
             title: "Urban Outlaws Matchmaking Test Results",
@@ -34,19 +34,19 @@ export default function LatestNews() {
 
     const updates = [
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/update2.jpg",
             tag: "Game Updates",
         },
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/update3.jpg",
             tag: "Game Updates",
         },
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/districts.jpg",
             tag: "Game Updates",
         },
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/steam.png",
             tag: "Game Updates",
         },
     ];
