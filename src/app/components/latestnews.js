@@ -3,7 +3,7 @@
 export default function LatestNews() {
     const news = [
         {
-            img: "https://placehold.co/600x350/png",
+            img: "/images/update.jpg",
             tag: "News Article",
             date: "October 30, 2025",
             title: "Major Update Coming to Urban Outlaws",
@@ -55,7 +55,7 @@ export default function LatestNews() {
         <section className="bg-[#1b1b1b] text-white px-10 py-12 w-full flex justify-center">
             <div className="max-w-7xl w-full">
 
-                {/* LATEST NEWS HEADER */}
+
                 <div className="flex justify-between items-center mb-6">
                     <h2 className="text-4xl font-bold">Latest News</h2>
                     <button className="text-white bg-white/10 px-6 py-2 rounded-lg hover:bg-white/20">
@@ -63,7 +63,7 @@ export default function LatestNews() {
                     </button>
                 </div>
 
-                {/* NEWS GRID */}
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
                     {news.map((item, i) => (
                         <div
@@ -93,7 +93,7 @@ export default function LatestNews() {
                     ))}
                 </div>
 
-                {/* GAME UPDATES HEADER */}
+
                 <div className="flex justify-between items-center mb-6">
                     <h2 className="text-3xl font-bold">Game Updates</h2>
                     <button className="text-white bg-white/10 px-6 py-2 rounded-lg hover:bg-white/20">
@@ -101,7 +101,7 @@ export default function LatestNews() {
                     </button>
                 </div>
 
-                {/* GAME UPDATES GRID */}
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {updates.map((item, i) => (
                         <div

@@ -13,7 +13,7 @@ export default function Video() {
 
                 <div className="grid lg:flex border border-red-600 rounded-xl overflow-hidden">
 
-                    {/* Left Image */}
+                    
                     <div className="w-full lg:w-3/4 relative">
                         <a href="https://youtube.com" target="_blank">
                             <img
@@ -29,7 +29,7 @@ export default function Video() {
                     </div>
 
 
-                    {/* Right Panel */}
+                    
                     <div className="w-full lg:w-1/4 p-8 flex flex-col gap-4 bg-[#1b1b1b]">
                         <span className="text-sm bg-white/10 px-3 py-1 rounded-md w-max">Video</span>
 

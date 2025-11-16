@@ -1,7 +1,7 @@
 
 import "./globals.css";
 import Navbar from "./components/navbar";
-import Home from "./page";
+
 import Footer from "@/app/components/footer";
 
 

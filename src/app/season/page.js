@@ -2,7 +2,6 @@ export default function SeasonUpdates() {
     return (
         <div className="w-full flex flex-col">
 
-            {/* SECTION 1 */}
             <section className="w-full bg-[#F5EDE1] py-20">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
                     <div>
@@ -27,8 +26,6 @@ export default function SeasonUpdates() {
                     />
                 </div>
             </section>
-
-            {/* SECTION 2 */}
             <section className="w-full bg-[#0E0E10] py-20 text-white">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
                     <img
