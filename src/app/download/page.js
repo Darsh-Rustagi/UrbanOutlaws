@@ -66,6 +66,46 @@ export default function DownloadPage() {
                     </div>
                 </div>
 
+                <div className="bg-[#262626] p-10 rounded-2xl shadow-xl mb-20">
+                    <h2 className="text-3xl font-bold mb-6">How to Install</h2>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div>
+                            <h3 className="text-xl font-semibold mb-2">PC (.exe)</h3>
+                            <ol className="list-decimal list-inside text-gray-300 space-y-2">
+                                <li>Download the installer by clicking "Download for PC".</li>
+                                <li>Run the .exe file and allow it to make changes if prompted.</li>
+                                <li>Follow the installer prompts: choose install folder and create shortcuts.</li>
+                                <li>Launch the game from the desktop or Start menu.</li>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <h3 className="text-xl font-semibold mb-2">Steam</h3>
+                            <ol className="list-decimal list-inside text-gray-300 space-y-2">
+                                <li>Click "Download on Steam" to open the store page.</li>
+                                <li>Press "Add to Library" or "Install".</li>
+                                <li>Steam will download and install automatically.</li>
+                                <li>Launch from your Steam library when ready.</li>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <h3 className="text-xl font-semibold mb-2">Epic Games</h3>
+                            <ol className="list-decimal list-inside text-gray-300 space-y-2">
+                                <li>Click "Download on Epic" to open the Epic store page.</li>
+                                <li>Purchase or claim the game, then click "Install".</li>
+                                <li>Open the Epic Games Launcher to monitor download progress.</li>
+                                <li>Launch from the Epic Games Launcher once installed.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <p className="text-gray-400 mt-6 text-sm">
+                        Note: Make sure your system meets the minimum requirements listed below. For any install issues, run the installer as administrator and ensure your firewall/antivirus isn't blocking the download.
+                    </p>
+                </div>
+
                 
                 <div className="bg-[#262626] p-10 rounded-2xl shadow-xl">
                     <h2 className="text-3xl font-bold mb-8">System Requirements</h2>
