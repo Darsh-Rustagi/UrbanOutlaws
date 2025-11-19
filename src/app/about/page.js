@@ -4,7 +4,7 @@ export default function FeaturesSection() {
         <section className="w-full bg-[#f6f0e7] py-20 px-10 flex justify-center">
             <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
 
-                {/* LEFT SIDE TEXT */}
+               
                 <div className="flex flex-col justify-center">
                     <h2 className="text-4xl font-bold tracking-wide mb-6 text-black">
                         About
@@ -16,7 +16,7 @@ export default function FeaturesSection() {
                     </p>
                 </div>
 
-                {/* RIGHT IMAGE */}
+                
                 <div className="flex justify-center">
                     <div className="bg-[#0f0f0f] rounded-2xl overflow-hidden shadow-xl p-4">
                         <img
@@ -28,18 +28,19 @@ export default function FeaturesSection() {
                 </div>
             </div>
         </section>
+
         <section className="w-full bg-[#1b1b1b] text-white px-10 py-20 flex justify-center">
             <div className="max-w-7xl w-full">
 
-                {/* Heading */}
+                
                 <h2 className="text-4xl font-bold text-center mb-12">
                     Urban Outlaws Features
                 </h2>
 
-                {/* TOP FEATURE GRID */}
+                
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
 
-                    {/* Feature 1 */}
+                    
                     <div>
                         <img
                             src="/images/outlaws.jpg"
@@ -59,7 +60,7 @@ export default function FeaturesSection() {
                         </button>
                     </div>
 
-                    {/* Feature 2 */}
+                    
                     <div>
                         <img
                             src="/images/urbanmodes.jpg"
@@ -79,7 +80,7 @@ export default function FeaturesSection() {
                         </button>
                     </div>
 
-                    {/* Feature 3 */}
+                   
                     <div>
                         <img
                             src="/images/districts.jpg"
@@ -100,7 +101,7 @@ export default function FeaturesSection() {
                     </div>
                 </div>
 
-                {/* LOWER IMAGE + LORE */}
+                
                 <div className="max-w-xl">
                     <img
                         src="/images/lore.jpg"
@@ -116,6 +117,77 @@ export default function FeaturesSection() {
                     </p>
                 </div>
 
+            </div>
+            
+        </section>
+
+        
+        <section className="w-full bg-linear-to-r from-[#0b0b0b] to-[#131313] text-white px-10 py-20 flex justify-center">
+            <div className="max-w-7xl w-full">
+                <h2 className="text-4xl font-bold text-center mb-12">
+                    Why Urban Outlaws is Better
+                </h2>
+
+                <p className="text-center text-gray-300 max-w-3xl mx-auto mb-10">
+                    Urban Outlaws blends deep crew-driven gameplay, evolving live districts, and
+                    bold stylistic direction to deliver experiences other games can't match.
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="bg-[#0f0f0f] p-6 rounded-xl shadow-lg">
+                        <h3 className="text-xl font-semibold mb-2">Crew-First Gameplay</h3>
+                        <p className="text-gray-300">
+                            Progress, strategies, and victories are built around crews — not solo power.
+                            Teamwork matters and rewards scale with coordination.
+                        </p>
+                    </div>
+
+                    <div className="bg-[#0f0f0f] p-6 rounded-xl shadow-lg">
+                        <h3 className="text-xl font-semibold mb-2">Living Districts & Events</h3>
+                        <p className="text-gray-300">
+                            Districts change over time with player actions and live events, creating
+                            emergent moments and long-term goals unique to Urban Outlaws.
+                        </p>
+                    </div>
+
+                    <div className="bg-[#0f0f0f] p-6 rounded-xl shadow-lg">
+                        <h3 className="text-xl font-semibold mb-2">Style & Production</h3>
+                        <p className="text-gray-300">
+                            Bold art direction, cinematic sound, and crafted worldbuilding create an
+                            unmistakable identity that stands out from generic titles.
+                        </p>
+                    </div>
+
+                    <div className="bg-[#0f0f0f] p-6 rounded-xl shadow-lg">
+                        <h3 className="text-xl font-semibold mb-2">Meaningful Progression</h3>
+                        <p className="text-gray-300">
+                            Player-driven economy, customizable crews, and persistent growth give
+                            long-term goals real weight.
+                        </p>
+                    </div>
+
+                    <div className="bg-[#0f0f0f] p-6 rounded-xl shadow-lg">
+                        <h3 className="text-xl font-semibold mb-2">Accessible & Competitive</h3>
+                        <p className="text-gray-300">
+                            Easy to pick up but deep to master — designed for both casual players
+                            and high-skill competitive crews.
+                        </p>
+                    </div>
+
+                    <div className="bg-[#0f0f0f] p-6 rounded-xl shadow-lg">
+                        <h3 className="text-xl font-semibold mb-2">Ongoing Support</h3>
+                        <p className="text-gray-300">
+                            Regular updates, community-driven features, and frequent events keep the
+                            experience fresh and player-focused.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="text-center mt-10">
+                    <button className="bg-white text-black px-6 py-3 rounded-lg font-medium hover:opacity-90">
+                        Join the Outlaws
+                    </button>
+                </div>
             </div>
         </section>
         </>

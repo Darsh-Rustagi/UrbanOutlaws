@@ -9,7 +9,7 @@ const Navbar = () => {
         <img
           src="/images/logo.png"
           alt="APEX Legends logo in white text"
-          className="h-10"
+          className="h-16"
         />
           </a>
         <ul className="flex items-center space-x-6 text-sm font-medium">
