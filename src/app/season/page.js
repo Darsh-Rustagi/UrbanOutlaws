@@ -26,6 +26,7 @@ export default function SeasonUpdates() {
                     />
                 </div>
             </section>
+
             <section className="w-full bg-[#0E0E10] py-20 text-white">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
                     <img
@@ -51,7 +52,6 @@ export default function SeasonUpdates() {
                 </div>
             </section>
 
-            {/* SECTION 3 */}
             <section className="w-full bg-[#F5EDE1] py-20">
                 <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
 
@@ -73,6 +73,55 @@ export default function SeasonUpdates() {
                         src="/images/update3.jpg"
                         alt="Double Barrel"
                         className="rounded-xl shadow-xl"
+                    />
+                </div>
+            </section>
+
+            <section className="w-full bg-[#0E0E10] py-20 text-white">
+                <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
+                    <img
+                        src="/images/weapon.jpg"
+                        alt="Urban Arsenal"
+                        className="w-full max-h-80 md:max-h-96 object-cover rounded-xl shadow-xl"
+                    />
+
+                    <div>
+                        <h2 className="text-4xl font-extrabold mb-4 tracking-tight">
+                            URBAN ARSENAL EXPANSION
+                        </h2>
+
+                        <p className="text-gray-300 leading-relaxed mb-6">
+                            New attachments and equipment drop into play, letting players customize weapons for both long-range control and fast city skirmishes.
+                        </p>
+
+                        <button className="bg-red-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-red-700 transition">
+                            Gear Up
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section className="w-full bg-[#F5EDE1] py-20">
+                <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center px-6">
+
+                    <div>
+                        <h2 className="text-4xl font-extrabold text-black mb-4 tracking-tight">
+                            STREET CIRCUIT SHOWDOWN
+                        </h2>
+
+                        <p className="text-gray-700 leading-relaxed mb-6">
+                            A new rotating limited-time mode introduces neon-lit urban arenas where speed, aggression, and split-second decisions rule every match.
+                        </p>
+
+                        <button className="bg-red-600 text-white px-6 py-3 rounded-md font-semibold hover:bg-red-700 transition">
+                            Enter the Arena
+                        </button>
+                    </div>
+
+                    <img
+                        src="/images/bike.jpg"
+                        alt="Street Mode"
+                        className="w-full max-h-80 md:max-h-96 object-cover rounded-xl shadow-xl"
                     />
                 </div>
             </section>
